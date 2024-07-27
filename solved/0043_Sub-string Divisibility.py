@@ -18,7 +18,6 @@ valSum = 0
 
 for pandigital_tuple in pandigital_numbers:
     i = ''.join(pandigital_tuple)
-    print(i)
     str_i = str(i)
     if len(set(str_i)) != 10:
         continue
